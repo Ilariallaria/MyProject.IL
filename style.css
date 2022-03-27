@@ -1,0 +1,93 @@
+/*regole di reset*/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.container
+{
+  background-color: rgba(0,0,0,0.5);
+  max-width: 900px;
+  min-height: 600px;
+  margin:auto;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding-bottom: 30px;
+}
+
+header
+{
+    color:#00dd00;
+    margin:auto;
+    text-align: center;
+}
+
+.logo
+{
+  width: 200px;
+  padding-top: 80px;
+}
+
+main
+{
+  max-width: 800px;
+  margin:auto;
+}
+
+nav
+{
+  text-align: center;
+  background-color:#00dd00;
+  padding: 10px;
+}
+
+nav > button
+{
+  padding: 0px 5px;
+}
+
+h3
+{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.box-dati
+{
+  color: white;
+  padding: 20px 0px;
+  font-size: 15px;
+  font-weight: 350;
+}
+
+hr
+{
+  height: 20px;
+  border-radius: 5px;
+}
+.charge-sand{
+  background-color: #c18821;
+  border: 0px;
+  width: 300px;
+}
+.charge-green{
+  background-color: #00dd00;
+  border: 0px;
+  width: 500px;
+}
+.charge-red{
+  background-color: #c12525;
+  border: 0px;
+  width: 150px;
+}
